@@ -1,0 +1,35 @@
+<evaluator>
+
+<database>
+        <dbHost>localhost</dbHost> <!--Database host (default localhost)-->
+        <dbPort>27017</dbPort> <!--Database port (default MongoDB 27017)-->
+        <dbName>monica</dbName> <!--Database name (default monica)-->
+        <dbLogin>bm</dbLogin> <!--Database login (default bm)-->
+        <dbPassword>bm</dbPassword> <!--Database password (default bm)-->
+</database>
+
+<redis>
+	<redisHost>localhost</redisHost> <!--Redis host (default localhost)-->
+	<redisPort>6379</redisPort> <!--Redis port (default 6379)-->
+	<redisPoolSize>20</redisPoolSize> <!--Redis pool size (default 20)-->
+</redis>
+
+<modules>
+	<AmountMiniTable>true</AmountMiniTable>
+	<AmountOfTransferredData>true</AmountOfTransferredData>
+	<AmountOfTransferredDataPacket>true</AmountOfTransferredDataPacket>
+	<AverageMiniTable>true</AverageMiniTable>
+	<AverageOfTransferredData>true</AverageOfTransferredData>
+	<AverageOfTransferredDataPacket>true</AverageOfTransferredDataPacket>
+	<BandwidthHistoryTrend>true</BandwidthHistoryTrend>
+	<BandwidthHistoryTrendPacket>true</BandwidthHistoryTrendPacket>
+	<HistoryTable>true</HistoryTable>
+	<HistoryTrendFlows>true</HistoryTrendFlows>
+	<MaximumDownloadUpload>true</MaximumDownloadUpload>
+	<NumberOfFlows>true</NumberOfFlows>
+	<PingTime>true</PingTime>
+	<TopUploader>true</TopUploader>
+	<TopDownloader>true</TopDownloader>
+</modules>
+
+</evaluator>
